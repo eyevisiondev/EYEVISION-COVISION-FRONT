@@ -4,6 +4,10 @@
       <div class="box_alert_img">
         <img src="../assets/alerta.png" alt />
       </div>
+      <div class="box_total_content">
+        <h4>risco alto</h4>
+        <h2>3200</h2>
+      </div>
     </div>
   </div>
 </template>
@@ -18,7 +22,6 @@ export default {
 </script>
 
 <style>
-
 #box_safe_img {
   height: 100px;
   width: 300px;
@@ -26,6 +29,11 @@ export default {
   margin: 5px;
   border-radius: 15px;
   box-shadow: 0 8px 6px -6px rgb(161, 161, 161);
+}
+
+.box_total_content {
+  transform: translate(-10px, -80px);
+  text-align: right;
 }
 
 .box_alert_img {

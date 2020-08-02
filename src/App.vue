@@ -6,6 +6,7 @@
         <DashBoxSafe />
         <DashBoxAlert />
       </div>
+      <DashboardCalendar/>
       <DashboardCadastro />
     </div>
 </template>
@@ -16,6 +17,8 @@ import DashBoxTotal from "./components/DashBox_total.vue";
 import DashBoxAlert from "./components/DashBox_alert.vue";
 import DashBoxSafe from "./components/DashBox_safe.vue";
 import DashboardCadastro from "./components/DashboardCadastro.vue";
+import DashboardCalendar from "./components/DashboardCalendar";
+
 
 export default {
   name: "App",
@@ -25,6 +28,7 @@ export default {
     DashBoxAlert,
     DashBoxSafe,
     DashboardCadastro,
+    DashboardCalendar
   },
 };
 </script>

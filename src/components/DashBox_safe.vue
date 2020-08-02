@@ -4,6 +4,10 @@
       <div class="box_safe_img">
         <img src="../assets/escudo.png" alt />
       </div>
+      <div class="box_total_content">
+        <h4>risco baixo</h4>
+        <h2>2100</h2>
+      </div>
     </div>
   </div>
 </template>
@@ -26,6 +30,11 @@ export default {
   margin: 5px;
   border-radius: 15px;
   box-shadow: 0 8px 6px -6px rgb(161, 161, 161);
+}
+
+.box_total_content {
+  transform: translate(-10px, -80px);
+  text-align: right;
 }
 
 .box_safe_img {
